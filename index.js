@@ -29,7 +29,7 @@ mongoose.connection.on("disconnected", ()=>{
 //middleware   
 
 app.use(cors({  credentials: true, 
-    origin: ['http://localhost:3000','https://sarto.netlify.app'], 
+    origin: ['http://localhost:3000','https://sarto.netlify.app','https://sarto-b5x7.onrender.com'], 
     methods:["GET","POST","DELETE","PUT"]
     }))
 
