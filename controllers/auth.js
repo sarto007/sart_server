@@ -1,5 +1,5 @@
 import WaitList from '../models/WaitList.js'
-import User from '../models/Users.js';
+import User from '../models/WaitList.js';
 import bcrypt from 'bcryptjs';
 
 
